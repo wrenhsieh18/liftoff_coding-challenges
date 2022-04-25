@@ -1,3 +1,5 @@
+const input = require("readline-sync");
+
 const FirstReverse = (str) => {
 
   // code goes here
@@ -7,4 +9,4 @@ const FirstReverse = (str) => {
 }
 
 // keep this function call here
-console.log(FirstReverse(readline()));
+console.log(FirstReverse(input.question("Please enter a word, the add will reverse it!: ")));
