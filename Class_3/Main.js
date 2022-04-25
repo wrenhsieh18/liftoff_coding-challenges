@@ -1,10 +1,8 @@
 const FirstReverse = (str) => {
 
   // code goes here
-  let arrayOfStr = str.split('');
-  arrayOfStr = arrayOfStr.reverse();
-  str = arrayOfStr.join("");
-  return str;
+  let reversedStr = str.split('').reverse().join("");
+  return reversedStr;
 
 }
 
