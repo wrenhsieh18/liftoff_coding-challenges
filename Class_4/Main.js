@@ -1,5 +1,4 @@
 const input = require("readline-sync");
-console.log(LongestWord(input.question("Input texts to find the longest word: ")))
 
 const LongestWord = (sen) => {
 
@@ -16,3 +15,5 @@ const LongestWord = (sen) => {
   return result; 
 
 }
+
+console.log(LongestWord(input.question("Input texts to find the longest word: ")))
